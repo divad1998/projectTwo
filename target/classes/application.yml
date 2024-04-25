@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/project_two
+    username: david
+    password: david
+  jpa:
+    hibernate:
+      ddl-auto: update
